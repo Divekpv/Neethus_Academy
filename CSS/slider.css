@@ -1,0 +1,270 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+#box11{
+    margin-top: 60px;
+}
+
+.slide-container {
+    max-width: 1160px;
+    width: 100%;
+    padding: 57px 0 50px 0;
+}
+.slide-content {
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+
+}
+
+.card {
+  border-radius: 25px;
+  background-color: #FFF;
+}
+
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 23px 18px;
+/*    height: 508px;*/
+        background-color: #d8e7f1;
+            border-radius: 23px;
+}
+
+
+.card-content h5 {
+    color: #0a8bb6;
+    text-align: left;
+    margin-left: -225px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.card-content h6 {
+    color: gray;
+    margin-top: -6px;
+    margin-left: -245px;
+    font-size: 16px;
+}
+
+
+#box11 span {
+    color: #ffa12a;
+    text-align: left;
+    margin-left: -215px;
+    margin-bottom: 18px;
+    font-size: 17px;
+}
+
+
+
+
+.description {
+   
+    text-align: left;
+    color: #152b4c;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+.swiper-navBtnright {
+    color: #183fa8;
+    transition: color 0.3s ease;
+    margin-top: 214px;
+    /* margin-left: -35px; */
+    margin-right: 475px;
+    border: 1px solid black;
+    width: 68px;
+    height: 57px;
+}
+
+.swiper-navBtnleft {
+    color: #183fa8;
+    transition: color 0.3s ease;
+    margin-top: 214px;
+    margin-left: 486px;
+    border: 1px solid black;
+    width: 68px;
+    height: 57px;
+}
+
+.swiper-navBtn:hover {
+  color: #4070F4;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 35px;
+}
+
+
+#box11 .iconr {
+    margin-top: 35px;
+    margin-left: 575px;
+}
+
+#box11 .iconr .fa {
+    font-size: 22px;
+    margin-top: 15px;
+    border: 1px solid blue;
+    padding: 12px;
+    border-radius: 24px;
+    width: 48px;
+    background: #0064fe;
+    color: white;
+    margin-left: 11px;
+}
+
+#box11 .iconp {
+    margin-top: -47px;
+    margin-left: -14px;
+}
+
+#box11 .iconp .fa {
+    margin-top: 0px;
+    margin-left: 522px;
+    font-size: 22px;
+        border: 1px solid blue;
+    padding: 12px;
+    border-radius: 24px;
+    width: 48px;
+    background: #0064fe;
+    color: white;
+    font-weight: 100;
+}
+
+
+
+
+.fa .fa-arrow-right{
+    right: 0;
+}
+
+.fa .fa-arrow-left{
+  left: 0;
+}
+
+.swiper-pagination-bullet {
+  background-color: #6E93f7;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content {
+    margin: 0 10px;
+  }
+
+  .swiper-navBtn {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+#box12 .slide-container {
+    max-width: 1160px;
+    width: 100%;
+    padding: 57px 0 200px 0;
+}
+#box12 .slide-video {
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+
+}
+
+#box12 .card {
+    border-radius: 47px;
+    background-color: #FFF;
+}
+
+#box12 .slide-video {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 7px;
+    border-radius: 46px;
+}
+
+
+
+
+#box12 .iconr {
+    margin-top: 35px;
+    margin-left: 575px;
+}
+
+#box12 .iconr .fa {
+    font-size: 22px;
+    margin-top: 15px;
+    border: 1px solid blue;
+    padding: 12px;
+    border-radius: 24px;
+    width: 48px;
+    background: #0064fe;
+    color: white;
+    margin-left: 11px;
+}
+
+#box12 .iconp {
+    margin-top: -47px;
+    margin-left: -14px;
+}
+
+#box12 .iconp .fa {
+    margin-top: 0px;
+    margin-left: 522px;
+    font-size: 22px;
+        border: 1px solid blue;
+    padding: 12px;
+    border-radius: 24px;
+    width: 48px;
+    background: #0064fe;
+    color: white;
+    font-weight: 100;
+}
+
+
+
+
+.fa .fa-arrow-right{
+    right: 0;
+}
+
+.fa .fa-arrow-left{
+  left: 0;
+}
+
+#box12 .swiper-navBtn:hover {
+  color: #4070F4;
+}
+
+#box12 .swiper-navBtn::before,
+#box12 .swiper-navBtn::after {
+  font-size: 35px;
+}
+
+
+@media screen and (max-width: 768px) {
+  #box12 .slide-content {
+    margin: 0 10px;
+  }
+
+  #box12 .swiper-navBtn {
+    display: none;
+  }
+}
